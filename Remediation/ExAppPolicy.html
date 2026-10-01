@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Remediate in Your EMM">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Example: Build an App Policy</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#Remediation/ExAppPolicy.html">Open topic with navigation</a>
+        </p>
+        <h1>Example: Build an App Policy</h1>
+        <p>This section describes how to build a specific app policy in Appthority. This example uses some common criteria that organizations use for compliance, an app policy for data leakage to China and Russia.</p>
+        <p class="StepHead">To build the data leakage policy</p>
+        <ol>
+            <li value="1">From the Add menu <img src="../Resources/Images/Common/Icons/AddMenuIcon.png" />on the <span class="UIelement">Apps</span> tab, select <span class="UIelement">Create App Policy</span>.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/Apps/AddApps_CreateAppPolicy.png"><img class="MCPopupThumbnail img imgimgThumb" data-mc-width="156" data-mc-height="126" src="../Resources/Images/Apps/AddApps_CreateAppPolicy_thumb_0_150.png" tabindex="" /></a></li>
+            <li value="2">In <span class="UIelement"><a href="../Apps/AddNewAppPolicy.html">Add New App Policy</a></span>, enter these parameters:<br /><table><col style="width: 154px;" /><col style="width: 373px;" /><tbody><tr><th>Field</th><th>Parameters</th></tr><tr><td><span class="UIelement">Name</span></td><td>Enter Data leakage to China and Russia.</td></tr><tr><td><span class="UIelement"><span class="VariablesBehavior">Behavior</span> Filter</span></td><td>Scroll to bottom and select <span class="UIelement">Add New <span class="VariablesBehavior">Behavior</span> Filter</span> to access the full list. <br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/Apps/SelectBehaviorFilterMenu.png"><img class="MCPopupThumbnail img imgimgThumb" data-mc-width="250" data-mc-height="314" src="../Resources/Images/Apps/SelectBehaviorFilterMenu_thumb_0_150.png" tabindex="" /></a><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/Apps/AddNewBehaviorFilterMenu.png"><img class="MCPopupThumbnail img imgimgThumb" data-mc-width="200" data-mc-height="94" src="../Resources/Images/Apps/AddNewBehaviorFilterMenu_thumb_0_150.png" tabindex="" /></a></td></tr><tr><td><span class="UIelement">Add New <span class="VariablesBehavior">Behavior</span> Filter<br /> <a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/Apps/AddNewBehaviorFilterWindow.png"><img class="MCPopupThumbnail img imgimgThumb" data-mc-width="489" data-mc-height="306" src="../Resources/Images/Apps/AddNewBehaviorFilterWindow_thumb_0_150.png" tabindex="" /></a><br /></span></td><td>Click these filters to add them to the policy, then name and save the filter:
+					<ul class="TableList"><li value="1">Sends Calendar</li><li value="2">Sends Address Book</li><li value="3">Sends Location</li><li value="4">Sends IMEI</li><li value="5">Sends credentials unencrypted</li></ul></td></tr><tr><td><span class="UIelement">Category Filter</span></td><td>Start typing to see and select from a list of matching results, such as business or gaming, to enter the category of apps.</td></tr><tr><td><span class="UIelement">Country Filter</span></td><td>Enter the names of countries to show apps that have network connections to servers in those locations. Appthority captures geolocation coordinates at runtime,  identified as countries.</td></tr><tr><td><span class="UIelement">Score Filter</span></td><td>Enter minimum and maximum trust scores, such as 0 and 33 to show apps in the bottom third.</td></tr><tr><td><span class="UIelement">Lifecycle Filter</span></td><td>Choose whether to restrict the policy to dead apps (apps that are no longer available in the public store).</td></tr></tbody></table><!--<ol style="list-style-type: lower-alpha;">					
+<li>For Name, enter Data leakage to China and Russia.</li></ol><ol style="list-style-type: lower-alpha;"><li>Click <span class="UIelement">Behavior Filter</span>, scroll to the bottom of the list and select <span class="UIelement">Add New Behavior Filter</span> to access the full list. <br />&#160;<img src="../Resources/Images/Apps/SelectBehaviorFilterMenu.png" class="imgThumb" /> <img src="../Resources/Images/Apps/AddNewBehaviorFilterMenu.png" class="imgThumb" /></li><li>Click these filters to add them to the policy:
+		<ul><li>Sends Calendar</li><li>Sends Address Book</li><li>Sends Location</li><li>Sends IMEI</li><li>Sends credentials unencrypted<br /><img src="../Resources/Images/Apps/AddNewBehaviorFilterWindow.png" class="imgThumb" /></li></ul></li><li>In <span class="UIelement">Category Filter</span>, start typing to see and select from a list of matching results, such as business or gaming, to enter the category of apps. (Optional)</li><li>In <span class="UIelement">Country Filter</span>, enter the names of countries to show apps that have network connections to servers in those locations. Appthority captures geolocation coordinates at runtime,  identified as countries.</li><li>In <span class="UIelement">Score Filter</span>, enter minimum and maximum trust scores, such as apps in the bottom third.</li><li>In <span class="UIelement">Lifecycle Filter</span>, choose whether to restrict the policy to dead apps (apps that are no longer available in the public store).</li></ol>--></li>
+            <li value="3">Click <span class="UIelement">Save App Policy</span>.</li>
+            <li value="4">In the list of policies in the <span class="UIelement">Apps</span> tab, activate the policy. This triggers a sync to your EMM.<br /><a class="MCPopupThumbnailLink MCPopupThumbnailHover" href="../Resources/Images/Apps/ActivatePolicy.png"><img class="MCPopupThumbnail img imgimgThumb" data-mc-width="200" data-mc-height="124" src="../Resources/Images/Apps/ActivatePolicy_thumb_0_150.png" tabindex="" /></a><br /></li>
+        </ol>
+        <p>Once the policy has successfully synced, configure remediation in your EMM. </p>
+    </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Appendix B: Appthority Analysis">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Behaviors: Best Practice</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#AppB_Analysis/BehaviorsBestPractice.html">Open topic with navigation</a>
+        </p>
+        <h1>Behaviors: Best Practice</h1>
+        <p>Appthority offers the ability to assess and manage risk to your enterprise through comprehensive app analysis combined with creating policies. This section offers some example app groupings that we recommend, aligned with <a href="http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf">NIST Special Publication 800-163</a>. Configure these as app policies to identify risky apps in an organization, and to protect against these vulnerability types.</p>
+        <table style="border-collapse: collapse;border-spacing: 5px 5px;border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-left-style: solid;border-left-width: 1px;border-right-style: solid;border-right-width: 1px;border-top-style: solid;border-top-width: 1px;border-bottom-style: solid;border-bottom-width: 1px;">
+            <col style="width: 134px;" />
+            <col style="width: 540px;" />
+            <tbody>
+                <tr>
+                    <th>Category</th>
+                    <th>Behaviors</th>
+                </tr>
+                <tr>
+                    <td>Malware/Spyware </td>
+                    <td>
+                        <ul>
+                            <li value="1">Malware Detected</li>
+                            <li value="2">Is a Spyware</li>
+                            <li value="3">Attempts Root Device</li>
+                            <li value="4">Infected by XcodeGhost</li>
+                            <li value="5">Infected by Dresscode</li>
+                            <li value="6">Infected by Exaspy</li>
+                            <li value="7">Uses YouMi SDK</li>
+                            <li value="8">Uses mobiSage SDK with Backdoor</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>High Risk (Android)</td>
+                    <td>
+                        <ul>
+                            <li value="1">Accesses Telephony Service</li>
+                            <li value="2">Calls Exec When Running</li>
+                            <li value="3">Reads Installed App Names</li>
+                            <li value="4">Changes Device Configuration</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Permissions and Privacy </td>
+                    <td>
+                        <ul>
+                            <li value="1">Accesses Address Book</li>
+                            <li value="2">Accesses Calendar</li>
+                            <li value="3">Has Permission to Place Calls</li>
+                            <li value="4">Has Permission to Record Calls</li>
+                            <li value="5">Has Permission to Bind Device Admin</li>
+                            <li value="6">Stores credentials unencrypted</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Exposed Communications </td>
+                    <td>
+                        <ul>
+                            <li value="1">Access Telephony Service</li>
+                            <li value="2">Accesses Bluetooth Sharing</li>
+                            <li value="3">Accesses Microphone</li>
+                            <li value="4">Access SMS Archive</li>
+                            <li value="5">Sends SMS Messages</li>
+                            <li value="6">Disables the SSL CA validation</li>
+                            <li value="7">Does not enforce HTTPS connections</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Data Exfiltration</td>
+                    <td>
+                        <ul>
+                            <li value="1">Sends Address Book</li>
+                            <li value="2">Sends Calendar</li>
+                            <li value="3">Sends IMEI</li>
+                            <li value="4">Sends UDID</li>
+                            <li value="5">Sends Location</li>
+                            <li value="6">Sends credentials unencrypted</li>
+                            <li value="7">Sends the device's name</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Potentially Dangerous Functionality</td>
+                    <td>
+                        <ul>
+                            <li value="1">Calls Exec When Running</li>
+                            <li value="2">Uses Hardcoded Credentials</li>
+                            <li value="3">Changes Device Configuration</li>
+                            <li value="4">Writes the APN Settings</li>
+                            <li value="5">Uses JS Patch for hot patching</li>
+                            <li value="6">Uses Aggressive Adware</li>
+                            <li value="7">Detects if device is rooted/jailbroken</li>
+                            <li value="8">Keyboard Extension with OpenAccess</li>
+                            <li value="9">Performs direct system calls</li>
+                            <li value="10">Performs dynamic symbol lookups</li>
+                            <li value="11">Prevents device from locking screen</li>
+                            <li value="12">Reads data from the Clipboard</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>App Collusion</td>
+                    <td>
+                        <ul>
+                            <li value="1">Creates and Advertises a Service</li>
+                            <li value="2">Creates Listening Ports</li>
+                            <li value="3">Gaming app that accesses the Address Book</li>
+                            <ul>
+                                <li value="1">Accesses Address Book</li>
+                                <li value="2">Category: Games</li>
+                            </ul>
+                            <li value="4">Phishing attack 1 – Collects Employee Communication Data</li>
+                            <ul>
+                                <li value="1">Accesses Call Logs</li>
+                                <li value="2">Accesses SMS Archive</li>
+                            </ul>
+                            <li value="5">Phishing attack 2 - Collects Employee Schedule/Activity Data</li>
+                            <ul>
+                                <li value="1">Tracks Location</li>
+                                <li value="2">Sends Calendar</li>
+                            </ul>
+                            <li value="6">Handles Custom URL Schemes</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

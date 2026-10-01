@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Configure EMM Connector|Deploy Connector On-Premises">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Deploy VM Appliance</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#Connector/DeployVMAppliance.html">Open topic with navigation</a>
+        </p>
+        <h3>Deploy VM Appliance</h3>
+        <p>To install Appthority Connector using the downloaded VM Appliance, have your VM administrator follow these steps. The VM administrator may be the same as your Appthority administrator. </p>
+        <p class="note"><b>Note</b>: Deploy the VM Appliance using your virtual machine admin tool instructions. Once the VM&#160;is correctly configured, continue to these steps. </p>
+        <p class="note">To register your RedHat instance, you must subscribe and agree to their terms. Configure your Red Hat licensing to open the Appthority image the first time you log in. The VM is in RedHat Enterprise Linux version 7.3.</p>
+        <p>Appthority creates two user accounts, 'root' and 'appthority'.</p>
+        <p class="StepHead">To install Connector on the VM Appliance </p>
+        <ol>
+            <li value="1">Log in to the Virtual Machine as appthority user.</li>
+            <li value="2">Run the command (you can copy and paste it). <br /><code>curl -Ls http://connector.appthority.com/appthority.sh&gt; appthority.sh ; chmod +x appthority.sh ; ./appthority.sh </code><br />This will download and start the script to install the Connector image. <br /></li>
+            <li value="3">Step through the <a href="../EMM_Script/RunEMMDeployScript.html">script</a> in the command line. </li>
+        </ol>
+    </body>
+</html>

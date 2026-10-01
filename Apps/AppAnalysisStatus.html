@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Managing Apps|App Information">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>App Analysis Status</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#Apps/AppAnalysisStatus.html">Open topic with navigation</a>
+        </p>
+        <h1>App Analysis Status</h1>
+        <p>There are a number of reasons why 100 percent of apps submitted by an enterprise might display as analysis failures in the <a href="ManageApps.html">Apps</a> tab. </p>
+        <p class="tip"><b>Tip</b>:&#160;Automated analysis is successful for more than 95 percent of apps.</p>
+        <p class="note"><b>Note</b>:&#160;Appthority must collect the app binary in order to analyze it. An app may also be collected but fail analysis in less than five percent of apps. </p>
+        <ul>
+            <li value="1">An app may not be collected if it is in a store we don’t support - for example, certain country stores such as Croatia, sanctioned third-party stores such as Amazon for Android, and unsanctioned stores such as adult, gambling and gaming sites. We also cannot collect paid apps from international stores, and don’t collect paid apps costing over $60.</li>
+            <li value="2">An app may not be collected if it is 'stale', meaning an app version is specified that is not the current version (only the current version is available from app stores). This is not shown in the product, and it is not a security concern, other than it is best practice for users to stay current so as to have the latest security patches.</li>
+            <li value="3">An app may not be collected if it is 'dead', meaning that the app was once on an official app store but it is no longer available. Often, that signifies that an app fails to meet the app store’s policies regarding security. Therefore, dead apps should be considered a security concern, and are shown in the product.</li>
+            <li value="4">An app may not be collected if it is a private app seen on a CSV import or an EMM sync. The only way to submit a private app for analysis is via the portal, by using Add Apps from binary file option. Also, note that many private apps require an internal login to a server, or SSO authentication, as the initial step, which prevents further analysis.</li>
+        </ul>
+    </body>
+</html>

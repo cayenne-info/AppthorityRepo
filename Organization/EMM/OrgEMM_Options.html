@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Set Up Organization|Enable EMM Integration">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../Skins/Favicons/favicon-16x16.png" /><title>Set EMM and Connector Options</title>
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../index.html#Organization/EMM/OrgEMM_Options.html">Open topic with navigation</a>
+        </p>
+        <h1>Set EMM and Connector Options</h1>
+        <p>Use the <span class="UIelement">EMM&#160;System</span> and <span class="UIelement">Appthority Connector</span> sections of the <span class="UIelement">Organization</span> sub-tab to set these options for your organization.</p>
+        <p class="note"><b>Note</b>: Each Appthority Connector is mapped to a unique ORG ID. </p>
+        <p class="StepHead">To set EMM&#160;and Connector options</p>
+        <ol>
+            <li value="1">Select your EMM&#160;vendor. </li>
+            <li value="2">Select your specific EMM&#160;product (only the options available for the EMM vendor you select will be available).<br /><img src="../../Resources/Images/OrgSubTab/SelectVendorProduct.png" /></li>
+            <li value="3">Under <span class="UIelement">Appthority Connector</span>, select  <span class="UIelement"><a href="../../Connector/ConfigConnCloud.html">Cloud</a></span> or <span class="UIelement"><a href="../../Connector/ConfigConnOnPrem.html">On Premises</a></span> to set Connector type to use, then  proceed to <a href="../../Connector/EMMConfig.html" class="MCXref xref">Configure EMM Connector</a>.<br /><img src="../../Resources/Images/OrgSubTab/SelectCloud_OnPrem1.png" /><br />For Cloud, you will also need to enter your <a href="OrgAPIAuth.html">API&#160;credentials</a> and click <span class="UIelement">Validate</span>. Once your credentials are valid, proceed to the next step.</li>
+            <li value="4">
+   Click <span class="UIelement"><span class="VariablesSave Changes">Save Changes</span></span>.</li>
+        </ol>
+        <p class="tip"><b>Tip</b>:&#160;Once you select <span class="UIelement">Enable EMM integration</span> in <span class="UIelement">Admin</span> &gt; <span class="UIelement">Organization</span>, you must have an active Connector  before the <span class="UIelement">EMM</span> sub-tab will be available. Complete <a href="../../Connector/ConfigConnOnPrem.html">Connector deployment</a> (for on-premises) or enter api credentials and wait briefly (for cloud).</p>
+        <p>Appthority Connector will display active status once Connector is running. <br /><img src="../../Resources/Images/OrgSubTab/ConnActive.png" /><br />You may also need to refresh the page to update and display the <span class="UIelement">EMM</span> tab.</p>
+        <p class="warning"><b>Important</b>:&#160;If you are using App Scan and want to stop, you must deactivate it in AirWatch (click Reconfigure). You will not be able to deselect it in Appthority until you have done this. Also, the checkbox to Enable EMM&#160;Integration on the Organization sub-tab can not be deselected until you disable App Scan in AirWatch, and will appear grayed out. <img src="../../Resources/Images/OrgSubTab/EnableEMM_Unavail.png" /></p>
+    </body>
+</html>

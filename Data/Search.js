@@ -1,0 +1,1 @@
+define({r:0.5,st:'Stem',n:1,t:[0,79],u:['../AdminTasks.html'],s:['$60','reflect'],p:[['$60',7],['between',0],['environment',37],['menu',25],['runs',54],['top',8]]});

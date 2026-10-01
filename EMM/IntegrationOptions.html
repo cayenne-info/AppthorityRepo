@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Manage EMM Integration">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Set Integration Options</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#EMM/IntegrationOptions.html">Open topic with navigation</a>
+        </p>
+        <h2>Set Integration Options</h2>
+        <p>Once Connector is configured and running, set options for additional integration features for your EMM. </p>
+        <p class="tip"><b>Tip</b>: Tick a top-level box to access the sub-items. </p>
+        <p>Click <span class="UIelement"><span class="VariablesSave Changes">Save Changes</span></span> when you are finished setting your options, which will also trigger a <a href="DataSync.html">sync</a> request. </p>
+        <table>
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="text-align: center;"><b>AirWatch</b>
+                    </td>
+                    <td style="text-align: center;"><b>MobileIron and XenMobile</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="../Resources/Images/EMMSubTab/EMMSubTabAW.png" />
+                    </td>
+                    <td>
+                        <img src="../Resources/Images/EMMSubTab/IntOpt_MI_XM.png" style="vertical-align: top;" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+            <col style="width: 317px;" />
+            <col style="width: 526px;" />
+            <thead>
+                <tr>
+                    <th>
+                         OPTION 
+                    </th>
+                    <th>
+                         DESCRIPTION 
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2" style="background-color: #f5f5f5;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;text-align: center;"><b>AirWatch</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Sync App inventory and Appthority App Policies with AirWatch</b>
+                    </td>
+                    <td>
+                         Tick to enable sync of app inventory and activated App Policies to your AirWatch instance. <br />This option must be selected to enable one of the sub-items below. 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Use AirWatch App Scan <b>OR</b></td>
+                    <td>Tick to allow Appthority to send compliance information to AirWatch for remediation, using App Scan. You must also click the link to download the Appthority certificate, upload it to AirWatch App Scan, download the App&#160;Scan certificate generated, and upload that to Appthority. <br />Important:&#160;Click Sync Now from App Scan to validate the certificates.</td>
+                </tr>
+                <tr>
+                    <td>Enable app policy remediation
+                    </td>
+                    <td>Tick to allow Appthority to send compliance information to AirWatch for remediation, using AirWatch groups.</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: #f5f5f5;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;border-left-style: solid;border-left-width: 1px;border-left-color: #a9a9a9;border-right-style: solid;border-right-width: 1px;border-right-color: #a9a9a9;border-top-style: solid;border-top-width: 1px;border-top-color: #a9a9a9;border-bottom-style: solid;border-bottom-width: 1px;border-bottom-color: #a9a9a9;text-align: center;"><b>MobileIron and XenMobile</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Activate remediation options</b>
+                    </td>
+                    <td>
+                         Tick to allow Appthority to provide the EMM compliance engine with the information it needs to take remediation actions based on synced App Policies.</td>
+                </tr>
+                <tr>
+                    <th colspan="2" style="text-align: center;background-color: #f5f5f5;padding-left: 3px;padding-right: 3px;padding-top: 3px;padding-bottom: 3px;"><b>Common</b>
+                    </th>
+                </tr>
+                <tr>
+                    <td><b>Sync device information</b> (both wordings)</td>
+                    <td>
+                         Tick to import and display anonymous device identifiers inside the Devices tab of <span class="Variablesweb app">Appthority Portal</span>. 
+                    </td>
+                </tr>
+                <tr>
+                    <td>Display employee information (name, email, phone) tied to Device ID</td>
+                    <td>
+                         Tick to display employee information associated with device identifiers.  
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

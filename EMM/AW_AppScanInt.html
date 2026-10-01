@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Manage EMM Integration|Set Integration Options">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Use AirWatch App Scan 2.0 Integration</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#EMM/AW_AppScanInt.html">Open topic with navigation</a>
+        </p>
+        <h1>Use AirWatch App Scan 2.0 Integration</h1>
+        <p>Select this option to enable App Scan integration with your AirWatch EMM. Access the options from <span class="UIelement">Admin</span> &gt;&#160;<span class="UIelement">EMM</span> once your Connector is active.</p>
+        <p class="note"><b>NOTE</b>: If you select to use App Scan, app inventory will not be synced automatically when Connector is active. No data will be synced until you select one or more integration options and click <span class="UIelement"><span class="VariablesSave Changes">Save Changes</span></span>.</p>
+        <p>The checkbox and links only display under these conditions:
+</p>
+        <ul>
+            <li value="1" data-mc-conditions="Default.May">You select AirWatch Cloud as your EMM product under <a href="../Organization/EMM/OrgEMM_Options.html">EMM and Connector Options</a>.</li>
+            <li value="2">Your version of AirWatch supports App Scan 2.0. (You must also request that AirWatch enable App Scan for your organization.)
+			</li>
+            <li value="3"> You select '<span class="UIelement">Sync App Inventory and <span class="Variablescompany name">Appthority</span> App Policies with AirWatch</span>'.
+			<br /></li>
+        </ul>
+        <p class="StepHead">To enable App Scan integration</p>
+        <ol>
+            <li value="1">Tick <span class="UIelement">Use AirWatch App Scan</span>.</li>
+            <li value="2">Click <span class="UIelement">Download Appthority Certificate</span>. Note where the certificate is downloaded so you can upload it to AirWatch.</li>
+            <li value="3">In your <a href="https://support.appthority.com/#Support/SetUpEMM/AirWatchSetup/AppScan2.html" target="_blank">AirWatch</a> console, upload the <span class="Variablescompany name">Appthority</span> certificate and download the AirWatch certificate.</li>
+            <li value="4">In <span class="Variablescompany name">Appthority</span>, click Upload <span class="UIelement">AirWatch App Scan Certificate</span> and upload it to Appthority.</li>
+            <li value="5">In AirWatch App Scan, click <span class="UIelement">Sync Now</span> to finalize the certificate validation.<br /></li>
+        </ol>
+        <p>Once you sync from App Scan, the indicator for Certificate status displays Active if valid. If the indicator displays as Inactive after being Active, the certificate may have been deleted or become invalid.</p>
+        <p>Once the certificates are active, you can initiate a sync from AirWatch or <span class="Variablescompany name">Appthority</span>, or wait for Appthority to sync automatically. </p>
+        <p class="warning"><b>Important</b>:&#160;If you are using App Scan and want to stop, you must deactivate it in AirWatch (click Reconfigure). You will not be able to deselect it in Appthority until you have done this. Also, the checkbox to Enable EMM&#160;Integration on the Organization sub-tab can not be deselected until you disable App Scan in AirWatch, and will appear grayed out. <img src="../Resources/Images/OrgSubTab/EnableEMM_Unavail.png" /></p>
+        <p>
+            <img src="../Resources/Images/EMMSubTab/EMMSubTabAW_AS.png" />
+        </p>
+    </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Working with Devices">
+    <!-- saved from url=(0016)http://localhost -->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../Skins/Favicons/browserconfig.xml" />
+        <link rel="shortcut icon" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="32x32" href="../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../Skins/Favicons/favicon-16x16.png" /><title>Device Information</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../Resources/Stylesheets/Modern.css" rel="stylesheet" />
+        <link href="../Resources/TableStyles/BasicTable.css" rel="stylesheet" />
+        <script src="../Resources/Scripts/custom.modernizr.js">
+        </script>
+        <script src="../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.min.js">
+        </script>
+        <script src="../Resources/Scripts/require.config.js">
+        </script>
+        <script src="../Resources/Scripts/foundation.min.js">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../index.html#Devices/DeviceInformation.html">Open topic with navigation</a>
+        </p>
+        <h2>Device Information</h2>
+        <p>Use the main section of the page to view information about your devices. Appthority recommends that all customers install Appthority <span class="Variablesmobile app">Mobile Agent</span> on user devices, as it provides much more frequent updates than your EMM and device threats can be detected quickly. EMM sync is often every 24 hours, where <span class="Variablesmobile app">Mobile Agent</span> updates approximately every 15 or 30 minutes, depending on OS (iOS or Android), as long as device is on and online. In addition, some devices may not be enrolled in the EMM, but still need to be monitored for security compliance. For example, consultants with access to company data on their mobile devices may not be enrolled with the EMM. </p>
+        <table style="mc-table-style: url('../Resources/TableStyles/BasicTable.css');" class="TableStyle-BasicTable" cellspacing="0">
+            <col style="width: 135px;" class="TableStyle-BasicTable-Column-Column1" />
+            <col style="width: 423px;" class="TableStyle-BasicTable-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-BasicTable-Head-Header1">
+                    <th class="TableStyle-BasicTable-HeadE-Column1-Header1">Column
+                    </th>
+                    <th class="TableStyle-BasicTable-HeadD-Column1-Header1">Description
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                        <img src="../Resources/Images/Common/Icons/SelectBoxIcon.png" /> checkbox 
+                    </td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                         Tick or untick the checkbox in the column header to select or deselect all apps. Tick one or more checkboxes for individual devices to select them.  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                         Device ID  
+                    </td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                         The unique ID of the device  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                         Last Check  
+                    </td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1"><![CDATA[
+                         ]]><span class="Variablesmobile app">Mobile Agent</span> presence and last sync <br /><img src="../Resources/Images/Common/Icons/NAIcon.png" /> Not installed <br />&gt; more than [time] <br />&lt; less than [time]  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                         Risk  
+                    </td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                         Assessed risk score for the device <br />Red - High <br />Orange - Medium <br />Green - Low  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                        <img src="../Resources/Images/Common/DeviceFlag.png" />
+                    </td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                         Device threats detected <br />Red - Indicates a serious threat <br />Orange - Indicates a medium threat  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                         Apps Not Compliant  
+                    </td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                         The number of non-compliant apps based on the app policies and threat lists selected. Click to open the Device detail page with a list of the apps.  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1"><span class="Variablesmobile app">Mobile Agent</span> <![CDATA[ ]]></td>
+                    <td class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                         Appthority mobile app status <br /><img src="../Resources/Images/Common/Icons/NAIcon.png" /> Never installed <br /><img src="../Resources/Images/Common/DeviceMA_Inactive.png" /> Inactive <br /><img src="../Resources/Images/Common/DeviceMA_Active.png" /> Active  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                         User (Last, First)  
+                    </td>
+                    <td rowspan="3" class="TableStyle-BasicTable-BodyD-Column1-Body1">
+                        <br />User details for the device. Hidden when PII is turned off.  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyE-Column1-Body1">
+                         Email  
+                    </td>
+                </tr>
+                <tr class="TableStyle-BasicTable-Body-Body1">
+                    <td class="TableStyle-BasicTable-BodyB-Column1-Body1">
+                         Phone  
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

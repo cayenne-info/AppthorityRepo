@@ -1,0 +1,446 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+body
+{
+	font-family: Verdana, 'Segoe UI', 'Trebuchet MS';
+	font-size: 11pt;
+	line-height: 1.7em;
+}
+
+h1
+{
+	margin-bottom: 8px;
+	font-family: 'Arial Narrow', Calibri, Arial;
+	font-weight: bold;
+	font-size: 16pt;
+	margin-right: 0px;
+	margin-left: 8px;
+	padding-bottom: 0px;
+	margin: 0px;
+	margin-top: 16px;
+	page-break-before: always;
+}
+
+h2
+{
+	font-weight: bold;
+	font-size: 14pt;
+	margin-left: 8pt;
+	padding-bottom: 0px;
+	font-family: 'Arial Narrow', Calibri, Arial;
+	margin: 0pt;
+	margin-bottom: 0pt;
+	margin-top: 14pt;
+}
+
+h3
+{
+	font-weight: bold;
+	font-size: 13pt;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	margin: 0px;
+	margin-top: 13px;
+	font-family: 'Arial Narrow', Calibri, Arial;
+}
+
+h4,
+h5,
+h6,
+p
+{
+	font-size: 11pt;
+	font-family: Verdana, 'Segoe UI', 'Trebuchet MS';
+}
+
+p.example
+{
+	color: #546C7F;
+	border: solid 1px #BECFDC;
+	background-color: #DEE8F0;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding: 14px 20px;
+}
+
+p.Subhead
+{
+	font-weight: bold;
+	margin-bottom: 8pt;
+	font-family: Verdana, 'Segoe UI', Tahoma;
+}
+
+p.StepHead
+{
+	font-weight: bold;
+	font-family: 'Arial Narrow', Calibri, Arial;
+	font-size: 12pt;
+	margin-bottom: 10;
+}
+
+p.note
+{
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	color: #000000;
+	border: solid 0px;
+	mc-auto-number-position: none;
+	margin-top: 4pt;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	background-color: #f0f8ff;
+}
+
+p.tip
+{
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	color: #000000;
+	border: solid 0px;
+	mc-auto-number-position: none;
+	margin-top: 4pt;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	background-color: #ffffe0;
+}
+
+p.warning
+{
+	background-repeat: no-repeat;
+	border-radius: 6px;
+	color: #000000;
+	border: solid 0px;
+	mc-auto-number-position: none;
+	margin-top: 4pt;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	background-color: #ffe4e1;
+}
+
+ul
+{
+	margin-bottom: 10pt;
+	margin-right: 0pt;
+	margin: 6pt;
+	margin-top: 0pt;
+	display: block;
+	margin-left: 0;
+}
+
+ol
+{
+	margin-bottom: 10pt;
+	margin: 10pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	display: block;
+	margin-left: 0;
+}
+
+li
+{
+	font-family: Verdana, 'Segoe UI', 'Trebuchet MS';
+}
+
+span.UIelement
+{
+	font-weight: bold;
+	vertical-align: baseline;
+	font-family: 'Arial Narrow', 'Agency FB', sans-serif;
+}
+
+img
+{
+	mc-thumbnail: none;
+	vertical-align: baseline;
+}
+
+img.imgThumb
+{
+	mc-thumbnail: hover;
+	mc-thumbnail-max-height: 150px;
+}
+
+img.imgNoThumbBorder
+{
+	mc-thumbnail: none;
+	border: solid 1px #000000;
+}
+
+a
+{
+	color: #0000EE;
+}
+
+MadCap|expanding
+{
+	mc-open-image: url('resources:Images/WebHelp/minus.png');
+	mc-closed-image: url('resources:Images/WebHelp/plus.png');
+	mc-image-position: left;
+}
+
+MadCap|dropDown
+{
+	mc-open-image: url('resources:Images/WebHelp/minus.png');
+	mc-closed-image: url('resources:Images/WebHelp/plus.png');
+}
+
+MadCap|toggler
+{
+	mc-open-image: url('resources:Images/WebHelp/minus.png');
+	mc-closed-image: url('resources:Images/WebHelp/plus.png');
+	color: inherit;
+}
+
+MadCap|popupHead
+{
+	color: #5B8EC1;
+}
+
+MadCap|popupBody
+{
+	color: #EBEBEB;
+	border: none;
+	background-color: rgba(0, 0, 0, .85);
+	padding: 11px 15px;
+}
+
+MadCap|glossaryTerm
+{
+	
+}
+
+MadCap|glossaryTerm.Expanding
+{
+	color: inherit;
+	font-weight: inherit;
+}
+
+MadCap|glossaryTerm.Hyperlink
+{
+	color: #5B8EC1;
+	font-weight: inherit;
+}
+
+MadCap|glossaryTerm.Popup
+{
+	color: #5B8EC1;
+	font-weight: normal;
+}
+
+MadCap|conceptLink
+{
+	color: #000000;
+}
+
+MadCap|keywordLink
+{
+	color: #000000;
+}
+
+MadCap|relatedTopics
+{
+	color: #000000;
+}
+
+MadCap|helpControlMenu
+{
+	color: #707070;
+	background-color: #FFFFFF;
+	border: none;
+}
+
+MadCap|helpControlMenuItem
+{
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+
+MadCap|helpControlMenuItem.Highlighted
+{
+	color: #000000;
+	background-color: #E5EFF7;
+}
+
+h5,
+h3
+{
+	color: #000000;
+}
+
+h1
+{
+	color: #000000;
+}
+
+h2
+{
+	color: #000000;
+}
+
+span
+{
+	
+}
+
+strong
+{
+	
+}
+
+/* Added from past stylesheet */
+
+th
+{
+	padding: 3px;
+	font-size: 10pt;
+	font-family: Arial;
+	background-color: #c0c0c0;
+}
+
+tr
+{
+	border: solid 1px #a9a9a9;
+}
+
+table
+{
+	border: solid 1px #696969;
+	margin-bottom: 8px;
+	margin: 8px;
+	border-collapse: collapse;
+	padding: 0px;
+	border-spacing: 0;
+}
+
+/* end add */
+
+/*
+
+thead
+{
+	background-color: #e8edeb;
+	font-family: Tahoma, Verdana, 'Segoe UI';
+	font-size: 10pt;
+	font-weight: bolder;
+	border: solid 1px #000000;
+}
+
+th
+{
+	background-color: #e8eced;
+	font-family: Arial, 'Arial Narrow';
+	font-size: 10pt;
+	border: solid 1px #000000;
+}
+
+td
+{
+	padding: 3px;
+	font-size: 10pt;
+	vertical-align: top;
+	border-color: #9cb6c3;
+	border: solid 1px #9cb6c3;
+	font-family: Tahoma, Verdana, 'Segoe UI';
+}
+*/
+
+li.TableList
+{
+	font-size: 10pt;
+	line-height: 9pt;
+	font-family: Tahoma, Verdana, 'Segoe UI';
+}
+
+table.NoBorders
+{
+	border: none 0px #f5f5f5;
+}
+
+td
+{
+	border: solid 1px #a9a9a9;
+	font-family: Tahoma, Verdana, 'Segoe UI';
+	font-size: 10pt;
+	padding: 3px;
+	line-height: 10pt;
+}
+
+ul.TableList
+{
+	font-family: Tahoma, Verdana, 'Segoe UI';
+	font-size: 10pt;
+	line-height: 9pt;
+}
+
+MadCap|miniTocProxy
+{
+	color: #4169e1;
+	font-family: Tahoma, Verdana, 'Segoe UI';
+	font-size: 10pt;
+	border-top-color: #a9a9a9;
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 4px;
+}
+
+p.MiniTOC1
+{
+	color: #4169e1;
+	font-size: 10pt;
+	font-weight: lighter;
+	line-height: 10pt;
+	margin: 8px;
+}
+
+p.Title
+{
+	font-size: x-large;
+}
+
+p.MiniTOC2
+{
+	color: #4169e1;
+	font-weight: lighter;
+	font-size: 9pt;
+	line-height: 9pt;
+}
+
+MadCap|annotation
+{
+	mc-thumbnail-max-height: 150;
+}
+
+tr.SubH
+{
+	background-color: #f6f5f1;
+}
+
+@media print
+{
+	p.StepHead
+	{
+		page-break-after: avoid;
+	}
+
+	a
+	{
+		color: #0000EE;
+	}
+}
+
+p.titleSmall
+{
+	text-align: center;
+	font-size: large;
+}
+
